@@ -7,4 +7,4 @@ This repo is to upload AI internship tasks
                   
 ### SOLUTION Chatbot.py:                        
 #### Chatbot with Rule-Based Responses and GUI Interface:             
-Interact with an AI-powered chatbot through a user-friendly graphical interface. Explore features such as web searches, YouTube video lookup, music playback, and engaging conversations. Built using Python and libraries like tkinter, webbrowser, PIL, and pywhatkit.
+- Interact with an AI-powered chatbot through a user-friendly graphical interface. Explore features such as web searches, YouTube video lookup, music playback, and engaging conversations. Built using Python and libraries like tkinter, webbrowser, PIL, and pywhatkit.
