@@ -12,15 +12,9 @@ class ChatBot:
         self.root.title("Chatbot with Rule-Based Responses")
         self.root.geometry("450x600+400+50")
         self.root.configure(background="seagreen4")
-        
-        self.img = Image.open("Tasks/images/chatbot.jpg")
-        self.resize_image = self.img.resize((70, 70))
-        self.bgimg = ImageTk.PhotoImage(self.resize_image)
-        self.label1 = Label(image=self.bgimg)
-        self.label1.pack(pady=5)
 
-        title_frame = Label(self.root, text="CHATBOT", font="KinoMT 20 bold", fg="white", bg="seagreen4")
-        title_frame.pack(pady=5)
+        title = Label(self.root, text="CHATBOT", font="KinoMT 20 bold", fg="white", bg="seagreen4")
+        title.pack(pady=5)
 
         self.chat_display = scrolledtext.ScrolledText(self.root, state=DISABLED)
         self.user_input = Text(self.root, height=2, font="timesnewroman 12 ", fg="black", bg="lightgray")
