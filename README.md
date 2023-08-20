@@ -20,6 +20,6 @@ This repo is to upload AI internship tasks
 #### How to Use:
 - Select a movie from the dropdown menu.
 - Click the "Show Recommendation" button to see a list of recommended movies.
-- Enjoy the movie suggestions complete with names and poster images.
+- Enjoy the movie suggestions complete with names and poster images.                    
 Note: For this application to work, you need to have a valid TMDb API key and the relevant data files (movies.pkl and similarity.pkl).
 - You can download similarity.pkl from the link: "https://drive.google.com/file/d/1amZ3jcrM4yOcU-NGlYgF8nPMopCrMLKT/view?usp=drive_link".
