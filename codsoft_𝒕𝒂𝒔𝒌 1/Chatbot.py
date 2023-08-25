@@ -113,8 +113,8 @@ class ChatBot:
             elif "play music" in query:
                 self.Tell("Ok sir! This is what I found for your search.")
                 query = query.replace("jarvis", "")
-                query = query.replace("google search", "")
-                song_url = "https://www.youtube.com/results?search_query=" + query.lower()
+                query = query.replace("play music", "")
+                song_url = "https://www.youtube.com/watch?v=kJQP7kiw5Fk?" + query.lower()
                 webbrowser.open(song_url)
                 self.Tell("Done Sir!")
 
